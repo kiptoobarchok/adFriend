@@ -31,10 +31,15 @@ git clone https://github.com/kiptoobarchok/adFriend
 - Data saved locally and managed via extension board
 - Fetching quotes randomly and displaying them on default page with top 3 prioritized tasks
 - Visually appealing UI
+- Widgets for `Quotes`, `Top 3 urgent and important tasks` and `Eisenhower Matrix quadrant with tasks in each.`
 
 # Screenshot of the extension
 ![Adfriend extension](./files/Screenshot%20from%202025-02-15%2000-36-37.png)
 
+### Roadmap
+1. `Phase 1` : Initial MVP development and testing
+2. `Phase 2`: User feedback and feature enhancements
+3. `Phase 3`: integrating AI and more customization tools and using more scalable tech stack
 
 
 #### Techstack
@@ -43,3 +48,19 @@ git clone https://github.com/kiptoobarchok/adFriend
 - **_API_**: quotable(for fetching random quotes), local storage(persist data), chrome extension API, Declarative net request API(intercept ads)
 
 
+## Contributing
+Contributions are welcome! To contribute:
+
+- Fork the repo
+
+- Create a feature branch (`git checkout -b feature-name`)
+
+- Commit your changes (`git commit -m 'Added new feature'`)
+
+- Push to your branch (`git push origin feature-name`)
+
+- Open a **Pull Request**
+
+# AUTHOR
+
+<calebkiptoo9090@gmail.com> - KIPTOO CALEB

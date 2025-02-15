@@ -38,6 +38,11 @@ git clone https://github.com/kiptoobarchok/adFriend
 
 ![AdFriend - Eisenhower Matrix](./files/Screenshot%20from%202025-02-15%2023-37-21.png)
 
+## Presentation slides 
+[google slides](https://docs.google.com/presentation/d/1ir_siTO3_K4Ifuur_f7cY8KkAKY3d8xEpCYkTYiWvG0/edit#slide=id.g334f8c9bf11_0_0)
+
+[Pitch Deck](https://drive.google.com/file/d/14R2sQFDvv26vxjLQEf4xF5qN5DClbd9N/view?usp=sharing)
+
 ### Roadmap
 1. `Phase 1` : Initial MVP development and testing
 2. `Phase 2`: User feedback and feature enhancements
@@ -66,3 +71,5 @@ Contributions are welcome! To contribute:
 # AUTHOR
 
 KIPTOO CALEB - <calebkiptoo9090@gmail.com>
+
+

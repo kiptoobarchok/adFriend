@@ -64,6 +64,5 @@ Contributions are welcome! To contribute:
 - Open a **Pull Request**
 
 # AUTHOR
-## Info
+
 KIPTOO CALEB - <calebkiptoo9090@gmail.com>
-[Whatsapp](https://wa.me/+254702171495)

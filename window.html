@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AdFriend</title>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=MedievalSharp&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header with a mystical title -->
+        <h1 class="title">AdFriend</h1>
+        <p class="subtitle">Your guide to focus and clarity</p>
+
+        <!-- Tab Links -->
+        <div class="tabs">
+            <button id="quote-tab" class="tablink active">Quote & Top Tasks</button>
+            <button id="eisenhower-tab" class="tablink">Eisenhower Matrix</button>
+        </div>
+
+        <!-- Tab Content -->
+        <div id="Quote" class="tabcontent">
+            <div class="quote-container">
+                <p id="quote">Loading quote...</p>
+                <p id="author"></p>
+            </div>
+            <button id="new-quote">Get New Quote</button>
+            <div class="top-tasks">
+                <h3>Top 3 Urgent & Important Tasks</h3>
+                <ul id="top-tasks-list"></ul>
+            </div>
+        </div>
+
+        <div id="Eisenhower" class="tabcontent" style="display:none;">
+            <h3>Eisenhower Matrix</h3>
+            <div class="matrix">
+                <div class="quadrant urgent-important">
+                    <h4>Urgent & Important</h4>
+                    <button id="clear-urgent-important">Clear</button>
+
+                    <ul id="urgent-important-tasks"></ul>
+                </div>
+                <div class="quadrant not-urgent-important">
+                    <h4>Not Urgent & Important</h4>
+                    <button id="clear-not-urgent-important">Clear </button>
+
+                    <ul id="not-urgent-important-tasks"></ul>
+                </div>
+                <div class="quadrant urgent-not-important">
+                    <h4>Urgent & Not Important</h4>
+                    <button id="clear-urgent-not-important">Clear</button>
+
+                    <ul id="urgent-not-important-tasks"></ul>
+                </div>
+                <div class="quadrant not-urgent-not-important">
+                    <h4>Not Urgent & Not Important</h4>
+                    <button id="clear-not-urgent-not-important">Clear</button>
+
+                    <ul id="not-urgent-not-important-tasks"></ul>
+                </div>
+            </div>
+
+            <button id="clear-all-btn">Clear All Tasks</button>
+
+
+            <!-- Task Input Form -->
+            <div class="task-input">
+                <h3>Add a New Task</h3>
+                <form id="task-form">
+                    <input type="text" id="task-text" placeholder="Enter task..." required>
+                    <select id="task-quadrant" required>
+                        <option value="urgent-important">Urgent & Important</option>
+                        <option value="not-urgent-important">Not Urgent & Important</option>
+                        <option value="urgent-not-important">Urgent & Not Important</option>
+                        <option value="not-urgent-not-important">Not Urgent & Not Important</option>
+                    </select>
+                    <button type="submit">Add Task</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

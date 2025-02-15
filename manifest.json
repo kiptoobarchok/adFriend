@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "AdFriend",
+    "description": "You partner in personal developemt",
+    "version": "1.0",
+    "action": {
+        "default_popup": "window.html",
+        "default_icon": "icons/icon.png"
+    },
+    "permissions": ["storage"],
+    "host_permissions": [
+        "https://zenquotes.io/*",
+        "https://api.allorigins.win/*",
+        "https://cors-anywhere.herokuapp.com/*"
+      ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}

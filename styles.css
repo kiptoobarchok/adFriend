@@ -1,0 +1,149 @@
+/* AdFriend UI - Futuristic Neon Theme */
+
+/* General Styles */
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0d0d0d;
+    color: #00ffcc;
+    margin: 0;
+    padding: 10px;
+    width: 350px;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #8b678b;
+    text-shadow: 0 0 8px rgba(255, 0, 255, 0.8);
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #00ffcc;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+/* Tab Styles */
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.tablink {
+    background: linear-gradient(135deg, #ff00ff, #00ffcc);
+    border: none;
+    color: #0d0d0d;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.tablink.active {
+    background: #00ffcc;
+    color: #0d0d0d;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 255, 204, 0.7);
+}
+
+.tablink:hover {
+    transform: scale(1.1);
+}
+
+/* Tab Content */
+.tabcontent {
+    display: none;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0, 255, 204, 0.1);
+    animation: fadeIn 0.5s ease-in;
+}
+
+.tabcontent.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Quote Section */
+.quote-container {
+    padding: 20px;
+    background: rgba(255, 0, 255, 0.1);
+    border-radius: 10px;
+    border: 2px solid #ff00ff;
+}
+
+#quote {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+#author {
+    font-size: 0.9rem;
+    color: #00ffcc;
+    margin-top: 10px;
+}
+
+/* Task Sections */
+.top-tasks, .matrix, .task-input {
+    background: rgba(0, 255, 204, 0.1);
+    border-radius: 10px;
+    padding: 15px;
+    border: 2px solid #00ffcc;
+    margin-top: 15px;
+}
+
+.matrix {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.quadrant {
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(255, 0, 255, 0.1);
+    border: 2px solid #ff00ff;
+    transition: transform 0.3s ease;
+}
+
+.quadrant:hover {
+    transform: scale(1.05);
+}
+
+/* Buttons */
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #00ffcc, #ff00ff);
+    color: #0d0d0d;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.5);
+}
+
+/* Form Elements */
+input, select {
+    padding: 8px;
+    border-radius: 5px;
+    background: #1a1a1a;
+    color: #00ffcc;
+    border: 1px solid #00ffcc;
+}

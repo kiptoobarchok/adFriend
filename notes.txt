@@ -1,0 +1,24 @@
+# Chrome extensions
+
+- Enhance functionality
+
+-   similar to web creation except it has a `manifest.json` file
+-   The heart of the extension defining `metadata` , `permissions` and `content interaction`
+-   predefined directory structure
+
+
+```
+---- 
+    $ ls
+        .json (manifest file)
+        <content>.js
+        <markup>.html
+        .png
+ ```
+
+## core components
+
+`manifest.json`: containing necessary information to build chrome extension
+`Background Scripts`: Js files running in the background , executing tasks
+`Popup UI`: User interface of the extension accessed via browser icon
+`content scripts`: interact directly with the web pages to gather data or modify them

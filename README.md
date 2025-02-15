@@ -36,6 +36,8 @@ git clone https://github.com/kiptoobarchok/adFriend
 # Screenshot of the extension
 ![Adfriend extension](./files/Screenshot%20from%202025-02-15%2000-36-37.png)
 
+![AdFriend - Eisenhower Matrix](./files/Screenshot%20from%202025-02-15%2023-37-21.png)
+
 ### Roadmap
 1. `Phase 1` : Initial MVP development and testing
 2. `Phase 2`: User feedback and feature enhancements

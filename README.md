@@ -4,7 +4,7 @@
 
 ## Features
 
-- `Eisenhower matrix` - Orgine tasks based on urgency and importance
+- `Eisenhower matrix` - Organize tasks based on urgency and importance
 - `Daily motivational quote` - Provide inspiration while browsing
 - `Minimalist & Futuristic UI` - Designed for a sleek, engaging experience.
 - `Add task form`- Insert tasks into each quadrant of the eisenhower matrix
